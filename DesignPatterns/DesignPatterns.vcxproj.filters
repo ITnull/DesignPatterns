@@ -13,5 +13,90 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\StrategyDesignPattern">
+      <UniqueIdentifier>{7ee098bd-004b-4903-a9ac-5e6d12cad276}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\StrategyDesignPattern">
+      <UniqueIdentifier>{bfe139ab-f896-46e7-932d-ca7d62408944}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Duck.h">
+      <Filter>头文件\StrategyDesignPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="RedheadDuck.h">
+      <Filter>头文件\StrategyDesignPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="RubberDuck.h">
+      <Filter>头文件\StrategyDesignPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyBehavior.h">
+      <Filter>头文件\StrategyDesignPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="QuackBehavior.h">
+      <Filter>头文件\StrategyDesignPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyWithWings.h">
+      <Filter>头文件\StrategyDesignPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyNoWay.h">
+      <Filter>头文件\StrategyDesignPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyWithRocket.h">
+      <Filter>头文件\StrategyDesignPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Quack.h">
+      <Filter>头文件\StrategyDesignPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="MuteQuack.h">
+      <Filter>头文件\StrategyDesignPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Squeak.h">
+      <Filter>头文件\StrategyDesignPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="MallardDuck.h">
+      <Filter>头文件\StrategyDesignPattern</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Duck.cpp">
+      <Filter>源文件\StrategyDesignPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="RedheadDuck.cpp">
+      <Filter>源文件\StrategyDesignPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="RubberDuck.cpp">
+      <Filter>源文件\StrategyDesignPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyBehavior.cpp">
+      <Filter>源文件\StrategyDesignPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="QuackBehavior.cpp">
+      <Filter>源文件\StrategyDesignPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyWithWings.cpp">
+      <Filter>源文件\StrategyDesignPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyNoWay.cpp">
+      <Filter>源文件\StrategyDesignPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyWithRocket.cpp">
+      <Filter>源文件\StrategyDesignPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="Quack.cpp">
+      <Filter>源文件\StrategyDesignPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="MuteQuack.cpp">
+      <Filter>源文件\StrategyDesignPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="Squeak.cpp">
+      <Filter>源文件\StrategyDesignPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="MallardDuck.cpp">
+      <Filter>源文件\StrategyDesignPattern</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

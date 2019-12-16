@@ -78,6 +78,33 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Duck.h" />
+    <ClInclude Include="FlyBehavior.h" />
+    <ClInclude Include="FlyNoWay.h" />
+    <ClInclude Include="FlyWithRocket.h" />
+    <ClInclude Include="FlyWithWings.h" />
+    <ClInclude Include="MallardDuck.h" />
+    <ClInclude Include="MuteQuack.h" />
+    <ClInclude Include="Quack.h" />
+    <ClInclude Include="QuackBehavior.h" />
+    <ClInclude Include="RedheadDuck.h" />
+    <ClInclude Include="RubberDuck.h" />
+    <ClInclude Include="Squeak.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Duck.cpp" />
+    <ClCompile Include="FlyBehavior.cpp" />
+    <ClCompile Include="FlyNoWay.cpp" />
+    <ClCompile Include="FlyWithRocket.cpp" />
+    <ClCompile Include="FlyWithWings.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MallardDuck.cpp" />
+    <ClCompile Include="MuteQuack.cpp" />
+    <ClCompile Include="Quack.cpp" />
+    <ClCompile Include="QuackBehavior.cpp" />
+    <ClCompile Include="RedheadDuck.cpp" />
+    <ClCompile Include="RubberDuck.cpp" />
+    <ClCompile Include="Squeak.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
