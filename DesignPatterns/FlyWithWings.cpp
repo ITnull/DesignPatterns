@@ -3,6 +3,7 @@
 
 FlyWithWings::FlyWithWings()
 {
+	cout << "FlyWithWings()¹¹Ôìº¯Êý" << endl;
 }
 
 

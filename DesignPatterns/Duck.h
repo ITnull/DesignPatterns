@@ -17,8 +17,10 @@ public:
 	virtual void display();	//Ðéº¯Êý
 	void performFly();
 	void performQuack();
+
 	void setFlyBehavior(FlyBehavior* flyBehavior);
 	void setQuckBehavior(QuackBehavior* quackBehavior);
+
 private:
 	FlyBehavior* fb;
 	QuackBehavior* qb;

@@ -10,6 +10,11 @@
 #include"FlyWithWings.h"
 #include"FlyWithRocket.h"
 
+#include"QuackBehavior.h"
+#include"Quack.h"
+#include"MuteQuack.h"
+#include"Squeak.h"
+
 int main(){
 	/*
 	Duck* rd = new RedheadDuck();
@@ -28,7 +33,7 @@ int main(){
 
 	cout << "-------------" << endl;
 
-	FlyBehavior *pfWings = new FlyWithWings;
+	FlyBehavior *pfWings = new FlyWithWings;	//这里调用FlyWithWings()默认构造函数
 	FlyBehavior *pfNo = new FlyNoWay;
 	FlyBehavior *pfRocket = new FlyWithRocket;
 
@@ -39,6 +44,12 @@ int main(){
 	// fly with a rocket
 	pDuck->setFlyBehavior(pfRocket);
 	pDuck->performFly();
+
+	pDuck->setFlyBehavior(pfNo);
+	pDuck->performFly();
+
+	QuackBehavior* pqQuack = new Quack;
+
 
 	system("pause");
 	return 0;

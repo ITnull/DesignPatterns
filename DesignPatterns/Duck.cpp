@@ -22,11 +22,11 @@ void Duck::display(){
 }
 
 void Duck::performFly(){
-	fb->fly();
+	fb->fly();	//FlyBehavior* fb
 }
 
 void Duck::performQuack(){
-	qb->quack();
+	qb->quack();	//QuackBehavior* qb
 }
 
 void Duck::setFlyBehavior(FlyBehavior* flyBehavior) {
