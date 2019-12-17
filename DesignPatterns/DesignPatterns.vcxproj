@@ -78,26 +78,39 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CurrentConditionsDisplay.h" />
+    <ClInclude Include="DisplayElement.h" />
     <ClInclude Include="Duck.h" />
     <ClInclude Include="FlyBehavior.h" />
     <ClInclude Include="FlyNoWay.h" />
     <ClInclude Include="FlyWithRocket.h" />
     <ClInclude Include="FlyWithWings.h" />
+    <ClInclude Include="ForecastDisplay.h" />
     <ClInclude Include="MallardDuck.h" />
     <ClInclude Include="MuteQuack.h" />
+    <ClInclude Include="Observer.h" />
     <ClInclude Include="Quack.h" />
     <ClInclude Include="QuackBehavior.h" />
     <ClInclude Include="RedheadDuck.h" />
     <ClInclude Include="RubberDuck.h" />
     <ClInclude Include="Squeak.h" />
+    <ClInclude Include="StatisticsDisplay.h" />
+    <ClInclude Include="Subject.h" />
+    <ClInclude Include="WeatherDate.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CurrentConditionsDisplay.cpp" />
+    <ClCompile Include="DisplayElement.cpp" />
     <ClCompile Include="Duck.cpp" />
     <ClCompile Include="FlyBehavior.cpp" />
     <ClCompile Include="FlyNoWay.cpp" />
     <ClCompile Include="FlyWithRocket.cpp" />
     <ClCompile Include="FlyWithWings.cpp" />
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ForecastDisplay.cpp" />
+    <ClCompile Include="Observer.cpp" />
+    <ClCompile Include="observer_main.cpp" />
+    <ClCompile Include="StatisticsDisplay.cpp" />
+    <ClCompile Include="strategy_main.cpp" />
     <ClCompile Include="MallardDuck.cpp" />
     <ClCompile Include="MuteQuack.cpp" />
     <ClCompile Include="Quack.cpp" />
@@ -105,6 +118,8 @@
     <ClCompile Include="RedheadDuck.cpp" />
     <ClCompile Include="RubberDuck.cpp" />
     <ClCompile Include="Squeak.cpp" />
+    <ClCompile Include="Subject.cpp" />
+    <ClCompile Include="WeatherDate.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

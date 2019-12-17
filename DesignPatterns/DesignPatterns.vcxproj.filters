@@ -13,90 +13,141 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="头文件\StrategyDesignPattern">
+    <Filter Include="头文件\StrategyPattern">
       <UniqueIdentifier>{7ee098bd-004b-4903-a9ac-5e6d12cad276}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\StrategyDesignPattern">
+    <Filter Include="源文件\StrategyPattern">
       <UniqueIdentifier>{bfe139ab-f896-46e7-932d-ca7d62408944}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\ObserverPattern">
+      <UniqueIdentifier>{4e9ba0a8-abf0-4e95-a7a2-5278d4cc6652}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ObserverPattern">
+      <UniqueIdentifier>{edbb4713-45ab-4c59-9aa5-0dff8cce20ab}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Duck.h">
-      <Filter>头文件\StrategyDesignPattern</Filter>
+      <Filter>头文件\StrategyPattern</Filter>
     </ClInclude>
     <ClInclude Include="RedheadDuck.h">
-      <Filter>头文件\StrategyDesignPattern</Filter>
+      <Filter>头文件\StrategyPattern</Filter>
     </ClInclude>
     <ClInclude Include="RubberDuck.h">
-      <Filter>头文件\StrategyDesignPattern</Filter>
+      <Filter>头文件\StrategyPattern</Filter>
     </ClInclude>
     <ClInclude Include="FlyBehavior.h">
-      <Filter>头文件\StrategyDesignPattern</Filter>
+      <Filter>头文件\StrategyPattern</Filter>
     </ClInclude>
     <ClInclude Include="QuackBehavior.h">
-      <Filter>头文件\StrategyDesignPattern</Filter>
+      <Filter>头文件\StrategyPattern</Filter>
     </ClInclude>
     <ClInclude Include="FlyWithWings.h">
-      <Filter>头文件\StrategyDesignPattern</Filter>
+      <Filter>头文件\StrategyPattern</Filter>
     </ClInclude>
     <ClInclude Include="FlyNoWay.h">
-      <Filter>头文件\StrategyDesignPattern</Filter>
+      <Filter>头文件\StrategyPattern</Filter>
     </ClInclude>
     <ClInclude Include="FlyWithRocket.h">
-      <Filter>头文件\StrategyDesignPattern</Filter>
+      <Filter>头文件\StrategyPattern</Filter>
     </ClInclude>
     <ClInclude Include="Quack.h">
-      <Filter>头文件\StrategyDesignPattern</Filter>
+      <Filter>头文件\StrategyPattern</Filter>
     </ClInclude>
     <ClInclude Include="MuteQuack.h">
-      <Filter>头文件\StrategyDesignPattern</Filter>
+      <Filter>头文件\StrategyPattern</Filter>
     </ClInclude>
     <ClInclude Include="Squeak.h">
-      <Filter>头文件\StrategyDesignPattern</Filter>
+      <Filter>头文件\StrategyPattern</Filter>
     </ClInclude>
     <ClInclude Include="MallardDuck.h">
-      <Filter>头文件\StrategyDesignPattern</Filter>
+      <Filter>头文件\StrategyPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>头文件\ObserverPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayElement.h">
+      <Filter>头文件\ObserverPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Subject.h">
+      <Filter>头文件\ObserverPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="WeatherDate.h">
+      <Filter>头文件\ObserverPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="CurrentConditionsDisplay.h">
+      <Filter>头文件\ObserverPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="StatisticsDisplay.h">
+      <Filter>头文件\ObserverPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="ForecastDisplay.h">
+      <Filter>头文件\ObserverPattern</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Duck.cpp">
-      <Filter>源文件\StrategyDesignPattern</Filter>
+      <Filter>源文件\StrategyPattern</Filter>
     </ClCompile>
     <ClCompile Include="RedheadDuck.cpp">
-      <Filter>源文件\StrategyDesignPattern</Filter>
+      <Filter>源文件\StrategyPattern</Filter>
     </ClCompile>
     <ClCompile Include="RubberDuck.cpp">
-      <Filter>源文件\StrategyDesignPattern</Filter>
-    </ClCompile>
-    <ClCompile Include="main.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\StrategyPattern</Filter>
     </ClCompile>
     <ClCompile Include="FlyBehavior.cpp">
-      <Filter>源文件\StrategyDesignPattern</Filter>
+      <Filter>源文件\StrategyPattern</Filter>
     </ClCompile>
     <ClCompile Include="QuackBehavior.cpp">
-      <Filter>源文件\StrategyDesignPattern</Filter>
+      <Filter>源文件\StrategyPattern</Filter>
     </ClCompile>
     <ClCompile Include="FlyWithWings.cpp">
-      <Filter>源文件\StrategyDesignPattern</Filter>
+      <Filter>源文件\StrategyPattern</Filter>
     </ClCompile>
     <ClCompile Include="FlyNoWay.cpp">
-      <Filter>源文件\StrategyDesignPattern</Filter>
+      <Filter>源文件\StrategyPattern</Filter>
     </ClCompile>
     <ClCompile Include="FlyWithRocket.cpp">
-      <Filter>源文件\StrategyDesignPattern</Filter>
+      <Filter>源文件\StrategyPattern</Filter>
     </ClCompile>
     <ClCompile Include="Quack.cpp">
-      <Filter>源文件\StrategyDesignPattern</Filter>
+      <Filter>源文件\StrategyPattern</Filter>
     </ClCompile>
     <ClCompile Include="MuteQuack.cpp">
-      <Filter>源文件\StrategyDesignPattern</Filter>
+      <Filter>源文件\StrategyPattern</Filter>
     </ClCompile>
     <ClCompile Include="Squeak.cpp">
-      <Filter>源文件\StrategyDesignPattern</Filter>
+      <Filter>源文件\StrategyPattern</Filter>
     </ClCompile>
     <ClCompile Include="MallardDuck.cpp">
-      <Filter>源文件\StrategyDesignPattern</Filter>
+      <Filter>源文件\StrategyPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="strategy_main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="observer_main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Observer.cpp">
+      <Filter>源文件\ObserverPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayElement.cpp">
+      <Filter>源文件\ObserverPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="Subject.cpp">
+      <Filter>源文件\ObserverPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="WeatherDate.cpp">
+      <Filter>源文件\ObserverPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="CurrentConditionsDisplay.cpp">
+      <Filter>源文件\ObserverPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="StatisticsDisplay.cpp">
+      <Filter>源文件\ObserverPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="ForecastDisplay.cpp">
+      <Filter>源文件\ObserverPattern</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
