@@ -1,7 +1,7 @@
 #include "CurrentConditionsDisplay.h"
 
 //将WeatherDate类的数据传进来,有数据就进行注册
-CurrentConditionsDisplay::CurrentConditionsDisplay(WeatherDate *p_weather_data)
+CurrentConditionsDisplay::CurrentConditionsDisplay(WeatherData *p_weather_data)
 {
 	this->p_weather_data = p_weather_data;
 	this->p_weather_data->RegisterObserver(this);

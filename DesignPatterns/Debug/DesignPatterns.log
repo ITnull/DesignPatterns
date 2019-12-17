@@ -1,12 +1,33 @@
-﻿生成启动时间为 2019/12/17 14:57:14。
-     1>项目“E:\VsProject\DesignPatterns\DesignPatterns\DesignPatterns.vcxproj”在节点 2 上(Build 个目标)。
+﻿生成启动时间为 2019/12/17 19:17:01。
+     1>项目“E:\GitHub\VisualProject\DesignPatterns\DesignPatterns\DesignPatterns.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CurrentConditionsDisplay.cpp StatisticsDisplay.cpp
+         D:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CurrentConditionsDisplay.cpp DisplayElement.cpp Duck.cpp FlyBehavior.cpp FlyNoWay.cpp FlyWithRocket.cpp FlyWithWings.cpp ForecastDisplay.cpp Observer.cpp observer_main.cpp StatisticsDisplay.cpp strategy_main.cpp MallardDuck.cpp MuteQuack.cpp Quack.cpp QuackBehavior.cpp RedheadDuck.cpp RubberDuck.cpp Squeak.cpp Subject.cpp WeatherData.cpp
+         WeatherData.cpp
+         Subject.cpp
+         Squeak.cpp
+         RubberDuck.cpp
+         RedheadDuck.cpp
+         QuackBehavior.cpp
+         Quack.cpp
+         MuteQuack.cpp
+         MallardDuck.cpp
+         strategy_main.cpp
          StatisticsDisplay.cpp
+         observer_main.cpp
+         Observer.cpp
+         ForecastDisplay.cpp
+         FlyWithWings.cpp
+         FlyWithRocket.cpp
+         FlyNoWay.cpp
+         FlyBehavior.cpp
+         Duck.cpp
+         DisplayElement.cpp
+         正在生成代码...
+         正在编译...
          CurrentConditionsDisplay.cpp
          正在生成代码...
        Link:
-         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\VsProject\DesignPatterns\Debug\DesignPatterns.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\VsProject\DesignPatterns\Debug\DesignPatterns.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\VsProject\DesignPatterns\Debug\DesignPatterns.lib" /MACHINE:X86 Debug\CurrentConditionsDisplay.obj
+         D:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\GitHub\VisualProject\DesignPatterns\Debug\DesignPatterns.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\GitHub\VisualProject\DesignPatterns\Debug\DesignPatterns.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\GitHub\VisualProject\DesignPatterns\Debug\DesignPatterns.lib" /MACHINE:X86 Debug\CurrentConditionsDisplay.obj
          Debug\DisplayElement.obj
          Debug\Duck.obj
          Debug\FlyBehavior.obj
@@ -26,10 +47,10 @@
          Debug\RubberDuck.obj
          Debug\Squeak.obj
          Debug\Subject.obj
-         Debug\WeatherDate.obj
-         DesignPatterns.vcxproj -> E:\VsProject\DesignPatterns\Debug\DesignPatterns.exe
-     1>已完成生成项目“E:\VsProject\DesignPatterns\DesignPatterns\DesignPatterns.vcxproj”(Build 个目标)的操作。
+         Debug\WeatherData.obj
+         DesignPatterns.vcxproj -> E:\GitHub\VisualProject\DesignPatterns\Debug\DesignPatterns.exe
+     1>已完成生成项目“E:\GitHub\VisualProject\DesignPatterns\DesignPatterns\DesignPatterns.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:02.39
+已用时间 00:00:10.96

@@ -1,7 +1,7 @@
 #ifndef _OBSERVER_MAIN_H_
 #define _OBSERVER_MAIN_H_
 #include<iostream>
-#include"WeatherDate.h"
+#include"WeatherData.h"
 #include"CurrentConditionsDisplay.h"
 #include"StatisticsDisplay.h"
 
@@ -9,7 +9,7 @@ using namespace std;
 
 int main(){
 
-	WeatherDate *p_weather_data = new WeatherDate();
+	WeatherData *p_weather_data = new WeatherData();
 
 	p_weather_data->SetMeasurements(80, 65, 30.4f);
 	p_weather_data->SetMeasurements(81, 72, 32.4f);

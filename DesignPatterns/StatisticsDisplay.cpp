@@ -1,7 +1,7 @@
 #include "StatisticsDisplay.h"
 
 //将WeatherDate类的数据传进来
-StatisticsDisplay::StatisticsDisplay(WeatherDate *p_weather_data)
+StatisticsDisplay::StatisticsDisplay(WeatherData *p_weather_data)
 {
 	this->p_weather_data = p_weather_data;
 	this->p_weather_data->RegisterObserver(this);

@@ -96,7 +96,7 @@
     <ClInclude Include="Squeak.h" />
     <ClInclude Include="StatisticsDisplay.h" />
     <ClInclude Include="Subject.h" />
-    <ClInclude Include="WeatherDate.h" />
+    <ClInclude Include="WeatherData.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CurrentConditionsDisplay.cpp" />
@@ -119,7 +119,7 @@
     <ClCompile Include="RubberDuck.cpp" />
     <ClCompile Include="Squeak.cpp" />
     <ClCompile Include="Subject.cpp" />
-    <ClCompile Include="WeatherDate.cpp" />
+    <ClCompile Include="WeatherData.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
