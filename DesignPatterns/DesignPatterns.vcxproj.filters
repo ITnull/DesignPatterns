@@ -25,6 +25,12 @@
     <Filter Include="源文件\ObserverPattern">
       <UniqueIdentifier>{edbb4713-45ab-4c59-9aa5-0dff8cce20ab}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\DecoratorPattern">
+      <UniqueIdentifier>{378d9258-8d12-4e65-af11-0c714154cfd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DecoratorPattern">
+      <UniqueIdentifier>{ac6ff1de-8425-46f1-9117-fd89696a79d3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Duck.h">
@@ -84,6 +90,33 @@
     <ClInclude Include="WeatherData.h">
       <Filter>头文件\ObserverPattern</Filter>
     </ClInclude>
+    <ClInclude Include="Beverage.h">
+      <Filter>头文件\DecoratorPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="HouseBlend.h">
+      <Filter>头文件\DecoratorPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkRoast.h">
+      <Filter>头文件\DecoratorPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Espresso.h">
+      <Filter>头文件\DecoratorPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="CondimentDecorator.h">
+      <Filter>头文件\DecoratorPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Milk.h">
+      <Filter>头文件\DecoratorPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Mocha.h">
+      <Filter>头文件\DecoratorPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Soy.h">
+      <Filter>头文件\DecoratorPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Whip.h">
+      <Filter>头文件\DecoratorPattern</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Duck.cpp">
@@ -122,12 +155,6 @@
     <ClCompile Include="MallardDuck.cpp">
       <Filter>源文件\StrategyPattern</Filter>
     </ClCompile>
-    <ClCompile Include="strategy_main.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="observer_main.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="Observer.cpp">
       <Filter>源文件\ObserverPattern</Filter>
     </ClCompile>
@@ -148,6 +175,45 @@
     </ClCompile>
     <ClCompile Include="WeatherData.cpp">
       <Filter>源文件\ObserverPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="Beverage.cpp">
+      <Filter>源文件\DecoratorPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="HouseBlend.cpp">
+      <Filter>源文件\DecoratorPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkRoast.cpp">
+      <Filter>源文件\DecoratorPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="Espresso.cpp">
+      <Filter>源文件\DecoratorPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="CondimentDecorator.cpp">
+      <Filter>源文件\DecoratorPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="main_decorator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main_observer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main_strategy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Milk.cpp">
+      <Filter>源文件\DecoratorPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="Mocha.cpp">
+      <Filter>源文件\DecoratorPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="Soy.cpp">
+      <Filter>源文件\DecoratorPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="Whip.cpp">
+      <Filter>源文件\DecoratorPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="main_singleton.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
